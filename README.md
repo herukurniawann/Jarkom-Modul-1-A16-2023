@@ -1,4 +1,4 @@
-## Praktikum Modul 1 Jaringan Komputer
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/b73ae5c1-d0e0-47df-9561-9163ae1050e8)## Praktikum Modul 1 Jaringan Komputer
 
 **Kelompok A16 :**
 
@@ -50,32 +50,55 @@ kemudian didapatkan server **gunicorn**
 **Berapa nilai checksum yang didapat dari header pada paket nomor 130? nc 10.21.78.111 13591**
 1. klik paket no 130
 1. di bagian user datagram protocol, terdapat checksum dan nilainya
-5\. **Elshe menemukan suatu file packet capture yang menarik. Bantulah elshe untuk menganalisis file packet capture tersebut.
-a. berapa packet yang berhasil dicapture dari file?** 60**
-
-**b. port berapa server yang digunakan untuk service smtp?**
-
-**c. berapa public ip?**
-ketika ditrace/difollow, ip 74.53.140.153 smtp dan mengirim pesan/mail**
 
 ### Soal 5
+**Elshe menemukan suatu file packet capture yang menarik. Bantulah elshe untuk menganalisis file packet capture tersebut.**
+a. Berapa packet yang berhasil dicapture dari file? 60
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/e5e10f4c-0fd5-431d-b870-11ad162251f9)
+Jumlah paket terpapar di bagian bawah wireshark.
+b. Port berapa server yang digunakan untuk service smtp? 25
+Karena Public IP server adalah 74.53.140.153 berdasarkan info yang tertulis sedangkan IP 10.10.1.4 adalah IP dari user (terlihat dari aktivitas mulai dari memasukkan login dan password), sehingga klik salah satu paket yang sourcenya adalah 74.53.140.153 (berasal dari server).
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/69814b4a-4f08-4684-84f4-868311c8d59a)
+Cek di bagian Transmission Control Protcol dan terlihat bahwa source portnya adalah 25.
+c. Berapa public ip? 74.53.140.153
+Public IP adalah 74.53.140.153 karena dari alamat ip ini terdapat beberapa kode status yang biasanya digunakan ke server web seperti angka "220", "250", "334", dan lainnya.
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/c2f12f6a-86e3-415d-b700-b6a20830e26e)
+Hal ini terlihat dapat dilihat di TCP Stream pada paket-paket dengan protokol SMTP (Simple Mail Transfer Protocol).
+**Kendala yang dialami**
+Tidak ada kendala yang dialami pada pengerjaan soal ini.
 
 ### Soal 6
-6\. PESAN TERSEMBUNYI: Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut. nc 10.21.78.111 6666
+PESAN TERSEMBUNYI: Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut. nc 10.21.78.111 6666
+
+**Penyelesaian**
+1. Filter untuk frame nomor 7812
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/d78ab16c-f9c5-4d08-b65f-50da66d31c5e)
+2. Pada soal dinyatakan bahwa source address 7812 invalid, ditemukan bahwa source address paket 7812 adalah 104.18.14.101
+3. Hasil pencarian yang menampilkan a1 e5 u21 menunjukkan bahwa terdapat cipher sederhana. Dimana huruf A disubstitusi dengan angka 1, huruf e digantikan dengan angka 5, dan seterusnya
+4. Sesuai dengan clue kapital SUBSTITUSI, angka yang tertera pada IP yaitu 104 18 14 101 di-decrypt dimana ditunjukkan bahwa hasilnya adalah JD R N JA
+![WhatsApp Image 2023-09-18 at 22 54 42](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/bed396ee-6fc6-4c2a-86d5-07724e917da7)
+
+**Kendala yang dialami**
+Pada proses praktikum vpn cukup lambat, kurangnya waktu menyempitkan kesempatan untuk menjawab soal ini. Solusi baru ditemukan setelah praktikum selesai. 
 
 ### Soal 7
 Berapa jumlah packet yang menuju IP 184.87.193.88? nc 10.21.78.111 6565**
-
-1. filter paket
-
-1. jumlah ada di kanan bawah
+**Penyelesaian**
+Dilakukan filter pada paket-paket yang menuju IP 184.87.193.88.
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/1ba8c1b9-9997-40f3-bc5e-42c91f7f65d0)
+Dari proses filter ini, jumlah paket terpampang pada bagian bawah wireshark, tepatnya di sebelah kiri profile
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/ab1d6912-debe-4d12-8f4e-2a8727abb266)
+**Kendala yang dialami**
+Tidak ada kendala yang dialami pada pengerjaan soal ini.
 
 ### Soal 8
 **Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)! nc 10.21.78.111 7171**
 
-1. filter tcp.dstport == 80 || udp.dstport == 80
-
-mencakup semua paket yang menuju ke port tcp 80. diurutkan sesuai abjad apabila lebih dari satu port**
+Dilakukan filter untuk mengambil semua protokol paket yang menuju port 80.
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/947989bd-9355-41fb-8feb-ae2cb93083c6)
+Filter tersebut mencakup semua paket baik paket dengan protokol transport TCP dan UDP.
+**Kendala yang dialami**
+Tidak ada kendala yang dialami pada pengerjaan soal ini
 
 ### Soal 9
 **Berikut kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1. tetapi tidak menuju ke alamat 10.39.55.34**
@@ -102,12 +125,17 @@ Sehingga untuk kuerinya **ip.src == 10.51.40.1 && ip.dst != 10.39.55.34 ( && mak
 
 ### Soal 10
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet! nc 10.21.78.111 7373**
+**Penyelesaian**
+1. Paket difilter berdasarkan Protokol Telnet.
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/01c21d18-dbd9-45ad-a2dc-13654a6e576e)
+2. Bagian yang memberikan petunjuk kredensial (contoh: login, password) dicaari pada hasil pemfilteran.
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/4ffc6a4f-3d69-4a6e-85a4-a671c12f85c1)
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/e8e2ddfd-2b66-46e9-a302-cf69b149c742)
+3. Stream di Paket tersebut dilacak hingga menemukan petunjuk kredensial lainnya.
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/a39a9bf0-6381-461f-a399-8231bf06a8cd)
 
-1. filter by telnet
-
-1. password ketemu di dua paket
-1. follow streamnya dan ketemu usernamenya juga
-
+**Kendala yang dialami**
+Tidak ada kendal dalam pengerjaan soal ini.
 
 
 
