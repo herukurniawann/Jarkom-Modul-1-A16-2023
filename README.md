@@ -22,6 +22,8 @@ didapatkan Sequence Number ( raw ) dan acknowledgment number ( raw) untuk reques
 dan didapatkan Sequence Number ( raw ) dan acknowledgment number ( raw) untuk response
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/e1a2bf67-453b-4d8c-83e7-e1719ca864ae)
 
+**Kendala No 1 Tidak Ada**
+
 ### Soal 2
 **Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer! nc 10.21.78.111 13579**
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/d307835f-28d7-4332-839f-49c2551f3faa)
@@ -34,6 +36,9 @@ Setelah kefilter klik kanan di protokol kttp => kemudian tekan follow => http st
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/3d5f7d1c-609e-4c62-b92c-ae8a4c996e57)
 kemudian didapatkan server **gunicorn**
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/e9e46503-6e7f-4cb4-82df-473e6591e147)
+
+**Kendala No 2 Tidak Ada**
+
 ### Soal 3
 **Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut: nc 10.21.78.111 13590**
 1. **Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?**
@@ -53,6 +58,9 @@ check berapa yang terdisplay
 1. **Protokol layer transport apa yang digunakan?**
    udp -> ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/2795e278-5673-44ae-b456-2579ba3914b0)
 
+   **Kendala No 3 saat pengerjaan tiba-tiba VPN lambat**
+
+
 ### Soal 4
 **Berapa nilai checksum yang didapat dari header pada paket nomor 130? nc 10.21.78.111 13591**
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/8117908d-98e0-498b-bbad-b86b769f12ba)
@@ -62,6 +70,9 @@ check berapa yang terdisplay
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/45d0f633-0764-42f6-9269-f78e4500188a)
 
 di bagian user datagram protocol, terdapat checksum dan nilainya
+
+**Kendala No 4 saat pengerjaan tiba-tiba VPN lambat**
+
 
 ### Soal 5
 **Elshe menemukan suatu file packet capture yang menarik. Bantulah elshe untuk menganalisis file packet capture tersebut.**
@@ -135,6 +146,9 @@ Kemudian untuk mengambil paket tetapi tidak menuju ke alamat 10.39.55.34! bisa m
 Sehingga untuk kuerinya **ip.src == 10.51.40.1 && ip.dst != 10.39.55.34 ( && maksutnya untuk memenuhi 2 kondisi ).**
 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/8a05bfa2-e997-435e-a6c6-fb028892dc8f)
+
+**Kendala No 9 Tidak Ada**
+
 
 ### Soal 10
 Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet! nc 10.21.78.111 7373**
