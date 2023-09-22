@@ -20,17 +20,21 @@ User melakukan berbagai aktivitas dengan menggunakan protokol FTP
 
 Melakukan filtering dengan menuliskan perintah FTP, bertujuan agar memfilter protokol FTP saja sesuai soal yang diminta.
 
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/b0ff7d38-6e12-4ca5-8d5e-ee4165f12c7a)
 
 Selanjutnya klik info untuk mendapatkan response, scroll dan temukan Perintah STOR dengan tujuan untuk meng-upload file ke FTP Server. 
+
 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/4c9d252e-6c23-4bd2-b52d-61f15938da2d)
 
 didapatkan Sequence Number ( raw ) dan acknowledgment number ( raw) untuk request
 
+
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/3e589970-abd8-4c04-a8dc-fe2d1a33b7e0)
 
 dan didapatkan Sequence Number ( raw ) dan acknowledgment number ( raw) untuk response
+
 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/e1a2bf67-453b-4d8c-83e7-e1719ca864ae)
 
@@ -43,16 +47,21 @@ dan didapatkan Sequence Number ( raw ) dan acknowledgment number ( raw) untuk re
 
 **Penyelesaian**
 
-Pada soal no 2 kita di suruh mencari web server yang digunakan portal praktikum jaringan komputer. 
+Pada soal no 2 kita di suruh mencari web server yang digunakan portal praktikum jaringan komputer.
+
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/8ccdff2a-e3bf-41b1-96ca-728f815d8f59)
 
 Lakukan filter http yang bertujuan untuk mendapatkan web server.
 
-
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/d4c559e2-97f7-4051-9309-fc846f347767)   
 
 Setelah kefilter klik kanan di protokol kttp => kemudian tekan follow => http stream ( bertujuan untuk mendapatkan server )
 
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/3d5f7d1c-609e-4c62-b92c-ae8a4c996e57)
+
 kemudian didapatkan server **gunicorn**
 
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/e9e46503-6e7f-4cb4-82df-473e6591e147)
 
 
 3\. **Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut: nc 10.21.78.111 13590**
