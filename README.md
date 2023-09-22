@@ -64,6 +64,7 @@ c. Berapa public ip? 74.53.140.153
 Public IP adalah 74.53.140.153 karena dari alamat ip ini terdapat beberapa kode status yang biasanya digunakan ke server web seperti angka "220", "250", "334", dan lainnya.
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/c2f12f6a-86e3-415d-b700-b6a20830e26e)
 Hal ini terlihat dapat dilihat di TCP Stream pada paket-paket dengan protokol SMTP (Simple Mail Transfer Protocol).
+
 ####**kendala yang dialami**
 Tidak ada kendala yang dialami pada pengerjaan soal ini.
 
@@ -89,6 +90,8 @@ Dilakukan filter pada paket-paket yang menuju IP 184.87.193.88.
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/1ba8c1b9-9997-40f3-bc5e-42c91f7f65d0)
 Dari proses filter ini, jumlah paket terpampang pada bagian bawah wireshark, tepatnya di sebelah kiri profile
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/ab1d6912-debe-4d12-8f4e-2a8727abb266)
+
+
 ####**kendala yang dialami**
 Tidak ada kendala yang dialami pada pengerjaan soal ini.
 
@@ -98,6 +101,7 @@ Tidak ada kendala yang dialami pada pengerjaan soal ini.
 Dilakukan filter untuk mengambil semua protokol paket yang menuju port 80.
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/947989bd-9355-41fb-8feb-ae2cb93083c6)
 Filter tersebut mencakup semua paket baik paket dengan protokol transport TCP dan UDP.
+
 ####**kendala yang dialami**
 Tidak ada kendala yang dialami pada pengerjaan soal ini
 
@@ -134,6 +138,7 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet! nc 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/e8e2ddfd-2b66-46e9-a302-cf69b149c742)
 3. Stream di Paket tersebut dilacak hingga menemukan petunjuk kredensial lainnya.
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/a39a9bf0-6381-461f-a399-8231bf06a8cd)
+
 
 ####**kendala yang dialami**
 Tidak ada kendal dalam pengerjaan soal ini.
