@@ -5,6 +5,8 @@
 1. Clarissa Luna Maheswari - 5025211003
 1. Heru Dwi Kurniawan - 5025211055
 
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/dbc3e690-b9a9-4a8d-8d9c-4dfd947936aa)
+
 Soal no 1: User melakukan berbagai aktivitas dengan menggunakan protokol FTP
 
 
