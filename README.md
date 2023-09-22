@@ -43,8 +43,7 @@ kemudian didapatkan server **gunicorn**
    ```bash
    filter (ip.src == 239.255.255.250 || ip.dst == 239.255.255.250) && udp.port == 3702
    ```
-
-
+   
    check ip.src atau ip.dst benar atau bukan dan check port udp
    
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/16ae2c37-7399-46b0-90ff-754ccb6c7f3e)
@@ -52,11 +51,17 @@ check berapa yang terdisplay
    
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/7f21998d-831a-41a1-83e6-f04f4c19ae85)
 1. **Protokol layer transport apa yang digunakan?**
-   udp ->
+   udp -> ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/2795e278-5673-44ae-b456-2579ba3914b0)
+
 ### Soal 4
 **Berapa nilai checksum yang didapat dari header pada paket nomor 130? nc 10.21.78.111 13591**
-1. klik paket no 130
-1. di bagian user datagram protocol, terdapat checksum dan nilainya
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/8117908d-98e0-498b-bbad-b86b769f12ba)
+
+ klik paket no 130
+ 
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/45d0f633-0764-42f6-9269-f78e4500188a)
+
+di bagian user datagram protocol, terdapat checksum dan nilainya
 
 ### Soal 5
 **Elshe menemukan suatu file packet capture yang menarik. Bantulah elshe untuk menganalisis file packet capture tersebut.**
