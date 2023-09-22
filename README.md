@@ -65,8 +65,7 @@ Public IP adalah 74.53.140.153 karena dari alamat ip ini terdapat beberapa kode 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/c2f12f6a-86e3-415d-b700-b6a20830e26e)
 Hal ini terlihat dapat dilihat di TCP Stream pada paket-paket dengan protokol SMTP (Simple Mail Transfer Protocol).
 
-####**kendala yang dialami**
-Tidak ada kendala yang dialami pada pengerjaan soal ini.
+**Kendala yang dialami**: Tidak ada kendala dalam pengerjaan soal ini.
 
 ### Soal 6
 PESAN TERSEMBUNYI: Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut. nc 10.21.78.111 6666
@@ -80,8 +79,7 @@ PESAN TERSEMBUNYI: Seorang anak bernama Udin Berteman dengan SlameT yang merupak
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/07a92d09-3d33-494d-9a90-0ca98ef28a8b)
 
 
-####**kendala yang dialami**
-Pada proses praktikum vpn cukup lambat, kurangnya waktu menyempitkan kesempatan untuk menjawab soal ini. Solusi baru ditemukan setelah praktikum selesai. 
+**Kendala yang dialami**: Pada proses praktikum vpn cukup lambat, kurangnya waktu menyempitkan kesempatan untuk menjawab soal ini. Solusi baru ditemukan setelah praktikum selesai. 
 
 ### Soal 7
 Berapa jumlah packet yang menuju IP 184.87.193.88? nc 10.21.78.111 6565**
@@ -92,8 +90,7 @@ Dari proses filter ini, jumlah paket terpampang pada bagian bawah wireshark, tep
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/ab1d6912-debe-4d12-8f4e-2a8727abb266)
 
 
-####**kendala yang dialami**
-Tidak ada kendala yang dialami pada pengerjaan soal ini.
+**Kendala yang dialami**: Tidak ada kendala dalam pengerjaan soal ini.
 
 ### Soal 8
 **Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)! nc 10.21.78.111 7171**
@@ -102,8 +99,7 @@ Dilakukan filter untuk mengambil semua protokol paket yang menuju port 80.
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/947989bd-9355-41fb-8feb-ae2cb93083c6)
 Filter tersebut mencakup semua paket baik paket dengan protokol transport TCP dan UDP.
 
-####**kendala yang dialami**
-Tidak ada kendala yang dialami pada pengerjaan soal ini
+**Kendala yang dialami**: Tidak ada kendala dalam pengerjaan soal ini.
 
 ### Soal 9
 **Berikut kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1. tetapi tidak menuju ke alamat 10.39.55.34**
@@ -140,8 +136,7 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet! nc 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/a39a9bf0-6381-461f-a399-8231bf06a8cd)
 
 
-#### kendala yang dialami
-Tidak ada kendal dalam pengerjaan soal ini.
+**Kendala yang dialami**: Tidak ada kendala dalam pengerjaan soal ini.
 
 
 
