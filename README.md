@@ -140,7 +140,7 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet! nc 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/a39a9bf0-6381-461f-a399-8231bf06a8cd)
 
 
-####**kendala yang dialami**
+#### kendala yang dialami
 Tidak ada kendal dalam pengerjaan soal ini.
 
 
