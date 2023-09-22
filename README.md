@@ -1,4 +1,4 @@
-![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/b73ae5c1-d0e0-47df-9561-9163ae1050e8)## Praktikum Modul 1 Jaringan Komputer
+## Praktikum Modul 1 Jaringan Komputer
 
 **Kelompok A16 :**
 
@@ -76,7 +76,8 @@ PESAN TERSEMBUNYI: Seorang anak bernama Udin Berteman dengan SlameT yang merupak
 2. Pada soal dinyatakan bahwa source address 7812 invalid, ditemukan bahwa source address paket 7812 adalah 104.18.14.101
 3. Hasil pencarian yang menampilkan a1 e5 u21 menunjukkan bahwa terdapat cipher sederhana. Dimana huruf A disubstitusi dengan angka 1, huruf e digantikan dengan angka 5, dan seterusnya
 4. Sesuai dengan clue kapital SUBSTITUSI, angka yang tertera pada IP yaitu 104 18 14 101 di-decrypt dimana ditunjukkan bahwa hasilnya adalah JD R N JA
-![WhatsApp Image 2023-09-18 at 22 54 42](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/bed396ee-6fc6-4c2a-86d5-07724e917da7)
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/121850356/07a92d09-3d33-494d-9a90-0ca98ef28a8b)
+
 
 **Kendala yang dialami**
 Pada proses praktikum vpn cukup lambat, kurangnya waktu menyempitkan kesempatan untuk menjawab soal ini. Solusi baru ditemukan setelah praktikum selesai. 
