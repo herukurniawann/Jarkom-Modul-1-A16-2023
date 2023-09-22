@@ -9,10 +9,9 @@
 
    
 ### Soal 1
+User melakukan berbagai aktivitas dengan menggunakan protokol FTP
 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/dbc3e690-b9a9-4a8d-8d9c-4dfd947936aa)
-
-User melakukan berbagai aktivitas dengan menggunakan protokol FTP
 
 **Penyelesaian**
 
@@ -40,10 +39,9 @@ dan didapatkan Sequence Number ( raw ) dan acknowledgment number ( raw) untuk re
 
 
 ## Soal 2
+**Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer! nc 10.21.78.111 13579**
 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/d307835f-28d7-4332-839f-49c2551f3faa)
-
-**Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer! nc 10.21.78.111 13579**
 
 **Penyelesaian**
 
@@ -110,11 +108,11 @@ mencakup semua paket yang menuju ke port tcp 80. diurutkan sesuai abjad apabila 
 
 
 ## Soal 9
-
+**Berikut kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1. tetapi tidak menuju ke alamat 10.39.55.34**
 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/0c8bfa33-0110-489a-a1bc-b42354c59547)
 
-Berikut kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1. tetapi tidak menuju ke alamat 10.39.55.34  
+**Penyelesaian**
 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/ad432c87-99f9-4c3f-8898-b2d1448c4e7b)
 
