@@ -1,12 +1,12 @@
 ## Praktikum Modul 1 Jaringan Komputer
 
 **Kelompok A16 :**
-
+nnn
 | Nama | NRP |
 | ----------- | ----------- |
 | Clarissa Luna Maheswari | 5025211033 |
-| Heru Dwi Kurniawan | 5025211055 |
-   jsjjsjs
+| Heru Dwi Kurniawan | 5025211055 
+
 ### Soal 1
 **User melakukan berbagai aktivitas dengan menggunakan protokol FTP**
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/dbc3e690-b9a9-4a8d-8d9c-4dfd947936aa)
