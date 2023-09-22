@@ -109,17 +109,28 @@ ketika ditrace/difollow, ip 74.53.140.153 smtp dan mengirim pesan/mail**
 mencakup semua paket yang menuju ke port tcp 80. diurutkan sesuai abjad apabila lebih dari satu port**
 
 
-9\. 
+## Soal 9
 
+
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/0c8bfa33-0110-489a-a1bc-b42354c59547)
 
 Berikut kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1. tetapi tidak menuju ke alamat 10.39.55.34  
 
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/ad432c87-99f9-4c3f-8898-b2d1448c4e7b)
 
+``` bash
+Seperti contoh di github bahwa ip.src == 192.168.0.1 or ip.dst == 192.168.0.1
+```
 
-` `Seperti contoh di github bahwa ip.src == 192.168.0.1 or ip.dst == 192.168.0.1 ( Menampilkan semua paket yang berasal dari alamat 192.168.0.1 atau menuju ke alamat 192.168.0.1 ). 
+( Menampilkan semua paket yang berasal dari alamat 192.168.0.1 atau menuju ke alamat 192.168.0.1 ). 
 
-untuk soal no 9 diperintahkan untuk mengambil paket yang berasal dari alamat 10.51.40.1. bisa menggunakan **ip.src == 10.51.40.1**. Kemudian untuk mengambil paket tetapi tidak menuju ke alamat 10.39.55.34! bisa menggunakan **ip.dst != 10.39.55.34**. Sehingga untuk kuerinya **ip.src == 10.51.40.1 && ip.dst != 10.39.55.34 ( && maksutnya untuk memenuhi 2 kondisi ).**
+untuk soal no 9 diperintahkan untuk mengambil paket yang berasal dari alamat 10.51.40.1. bisa menggunakan **ip.src == 10.51.40.1**. 
 
+Kemudian untuk mengambil paket tetapi tidak menuju ke alamat 10.39.55.34! bisa menggunakan **ip.dst != 10.39.55.34**. 
+
+Sehingga untuk kuerinya **ip.src == 10.51.40.1 && ip.dst != 10.39.55.34 ( && maksutnya untuk memenuhi 2 kondisi ).**
+
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/8a05bfa2-e997-435e-a6c6-fb028892dc8f)
 
 
 **10. Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet! nc 10.21.78.111 7373**
