@@ -1,35 +1,47 @@
-**Jaringan Komputer A**
+## Praktikum Modul 1 Jaringan Komputer
 
 **Kelompok A16 :**
 
-1. Clarissa Luna Maheswari - 5025211003
-1. Heru Dwi Kurniawan - 5025211055
+| Nama | NRP |
+| ----------- | ----------- |
+| Clarissa Luna Maheswari | 5025211033 |
+| Heru Dwi Kurniawan | 5025211055 |
+
+   
+### Soal 1
 
 ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/dbc3e690-b9a9-4a8d-8d9c-4dfd947936aa)
 
-Soal no 1: User melakukan berbagai aktivitas dengan menggunakan protokol FTP
+User melakukan berbagai aktivitas dengan menggunakan protokol FTP
 
+**Penyelesaian**
+
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/67e89770-15f6-4da2-886a-b0590da6d49f)
 
 Melakukan filtering dengan menuliskan perintah FTP, bertujuan agar memfilter protokol FTP saja sesuai soal yang diminta.
 
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/b0ff7d38-6e12-4ca5-8d5e-ee4165f12c7a)
 
 Selanjutnya klik info untuk mendapatkan response, scroll dan temukan Perintah STOR dengan tujuan untuk meng-upload file ke FTP Server. 
 
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/4c9d252e-6c23-4bd2-b52d-61f15938da2d)
 
 didapatkan Sequence Number ( raw ) dan acknowledgment number ( raw) untuk request
 
-
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/3e589970-abd8-4c04-a8dc-fe2d1a33b7e0)
 
 dan didapatkan Sequence Number ( raw ) dan acknowledgment number ( raw) untuk response
 
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/e1a2bf67-453b-4d8c-83e7-e1719ca864ae)
 
 
-2\.  **Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer! nc 10.21.78.111 13579**
+## Soal 2
 
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/d307835f-28d7-4332-839f-49c2551f3faa)
 
+**Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer! nc 10.21.78.111 13579**
 
-
-Sebutkan web server yang digunakan pada portal praktikum jaringan komputer !
+**Penyelesaian**
 
 Pada soal no 2 kita di suruh mencari web server yang digunakan portal praktikum jaringan komputer. 
 
@@ -46,7 +58,11 @@ kemudian didapatkan server **gunicorn**
 3\. **Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut: nc 10.21.78.111 13590**
 
 1. **Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?**
-       1. filter (ip.src == 239.255.255.250 || ip.dst == 239.255.255.250) && udp.port == 3702 -> check ip.src atau ip.dst benar atau bukan dan check port udp
+       1.
+   ```bash
+   filter (ip.src == 239.255.255.250 || ip.dst == 239.255.255.250) && udp.port == 3702
+   ```
+   check ip.src atau ip.dst benar atau bukan dan check port udp
 
 2\. check berapa yang terdisplay
 
