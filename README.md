@@ -37,13 +37,20 @@ kemudian didapatkan server **gunicorn**
 ### Soal 3
 **Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut: nc 10.21.78.111 13590**
 1. **Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?**
-       1.
+   
+   ![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/58ae3107-6821-44b5-be45-61ef3f3fdc1d)
+
    ```bash
    filter (ip.src == 239.255.255.250 || ip.dst == 239.255.255.250) && udp.port == 3702
    ```
-   check ip.src atau ip.dst benar atau bukan dan check port udp
 
-2\. check berapa yang terdisplay
+
+   check ip.src atau ip.dst benar atau bukan dan check port udp
+   
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/16ae2c37-7399-46b0-90ff-754ccb6c7f3e)
+check berapa yang terdisplay
+   
+![image](https://github.com/herukurniawann/Jarkom-Modul-1-A16-2023/assets/93961310/7f21998d-831a-41a1-83e6-f04f4c19ae85)
 1. **Protokol layer transport apa yang digunakan?**
    udp ->
 ### Soal 4
